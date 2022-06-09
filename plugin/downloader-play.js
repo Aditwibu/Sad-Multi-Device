@@ -18,7 +18,7 @@ handler.help = handler.alias = ['play']
 handler.tags = ['downloader']
 handler.command = /^(play)$/i
 handler.exp = 0
-
+handler.limit = true
 export default handler
 
 async function shortUrl(url) {
