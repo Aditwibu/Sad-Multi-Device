@@ -59,4 +59,5 @@ m.reply(tqto)
 handler.help = ['tqto']
 handler.tags = ['main','info']
 handler.command = /^(credits|credit|thanks|thanksto|tqto)$/i
+handler.premium = true
 export default handler
