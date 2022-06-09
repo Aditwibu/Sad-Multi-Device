@@ -11,10 +11,10 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 		let mime = (q.msg || q).mimetype || q.mediaType || ''
 		if (/webp/g.test(mime)) {
 			let img = await q.download?.()
-			stiker = await addExif(img, packname || '', author || '')
+			stiker = await addExif(img, packname || '.', author || `⫹⫺ Eeeh....mau nyolong yahh...\n\nJangan Lupa ada Wm nya lohh... By Adit`)
 		} else if (/image/g.test(mime)) {
 			let img = await q.download?.()
-			stiker = await createSticker(img, false, packname, author)
+			stiker = await createSticker(img, false, packname || '.', author || `⫹⫺ Eeeh....mau nyolong yahh...\n\nJangan Lupa ada Wm nya lohh... By Adit`)
 		} else if (/video/g.test(mime)) {
 		//	if ((q.msg || q).seconds > 10) throw 'Max 10 seconds!'
 			let img = await q.download?.()
