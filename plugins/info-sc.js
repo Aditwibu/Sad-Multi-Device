@@ -10,4 +10,5 @@ sourceUrl: `https://github.com/FahriAdison`}}})
 handler.command = ['sc','script'] 
 handler.help = ['sc']
 handler.tags = ['general']
+handler.premium = true
 export default handler
