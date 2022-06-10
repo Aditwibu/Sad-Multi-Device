@@ -373,7 +373,7 @@ export async function handler(chatUpdate) {
                     sBye: '',
                     sPromote: '',
                     sDemote: '',
-                    delete: true,
+                    delete: false,
                     antiLink: true,
                     viewonce: false,
                     antiToxic: true,
