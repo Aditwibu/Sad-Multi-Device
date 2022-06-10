@@ -73,7 +73,7 @@ let handler = async (m, { conn, usedPrefix, __dirname, text, command }) => {
 ⮕ ${groupsIn.length - groupsIn.length} - Groups Left
 ⮕ ${chats.length - groupsIn.length} - Personal Chats
 ⮕ ${chats.length} - Total Chats
-`.trim(), './media/botinfo.jpg', 'https://github.com/FahriAdison/Sad-Multi-Device', 'ʙᴏᴛ sᴄʀɪᴩᴛ', null, null, [
+`.trim(), './media/botinfo.jpg', 'http://wa.me/6282226078871?text=Halo%20owner/F', 'Owner', null, null, [
 [`ᴏᴡɴᴇʀ`, `${usedPrefix}owner`],
 [`ᴅᴏɴᴀᴛᴇ`, `${usedPrefix}donate`]
 ], m, {asLocation: true})
@@ -81,7 +81,7 @@ let handler = async (m, { conn, usedPrefix, __dirname, text, command }) => {
 handler.help = ['botinfo']
 handler.tags = ['info']
 handler.command = /^(botinfo|bot|info|bi)$/i
-
+handler.premium = true
 export default handler
 
 function clockString(ms) {
