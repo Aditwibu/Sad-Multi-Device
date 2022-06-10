@@ -244,7 +244,7 @@ export async function handler(chatUpdate) {
                     wallet: 0,
                     bank: 0,
                     health: 100,
-                    limit: 100,
+                    limit: 50,
                     potion: 10,
                     trash: 0,
                     wood: 0,
@@ -373,8 +373,8 @@ export async function handler(chatUpdate) {
                     sBye: '',
                     sPromote: '',
                     sDemote: '',
-                    delete: false,
-                    antiLink: true,
+                    delete: true,
+                    antiLink: false,
                     viewonce: false,
                     antiToxic: true,
                     simi: false,
@@ -392,7 +392,7 @@ export async function handler(chatUpdate) {
             } else global.db.data.settings[this.user.jid] = {
                 self: false,
                 autoread: false,
-                restrict: true
+                restrict: false
             }
         } catch (e) {
             console.error(e)
@@ -704,7 +704,7 @@ export async function participantsUpdate({ id, participants, action }) {
 
       ['MENU 🎀', '/menu'],
 
-      ['\n\nSAYA PEDO DAN SAYA BANGGA (≧▽≦)', '...'],
+      ['\n\nTch Dasar Kau Pengocok Handal', '...'],
 
       [null, null]
 
