@@ -159,7 +159,7 @@ const sections = [
 const listMessage = {
   text: teks,
   footer: '┏- - - - -  INFO - - - - -\n┊ 🅟 = Premium\n┊ Ⓕ = Free\n┗•',
-  title: `❏––––[ *NSFW* ]–––`,
+  title: `❏––––[ *NSFW* ]–––/nTch Sungguh Keji Pengocok Ini`,
   buttonText: "- -NSFW- -",
   sections
 }
